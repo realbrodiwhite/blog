@@ -1,5 +1,7 @@
 {
     "name": "My Dev Container",
+    "appPort": 4321,
+    "appPortAutoForward": true,
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {},
     "extensions": [
