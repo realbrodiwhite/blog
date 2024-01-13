@@ -25,3 +25,4 @@ export const config = defineConfig({
     types: schema,
   },
 })
+assist()
