@@ -26,7 +26,7 @@ Then, start the development server:
 npm run dev
 ```
 
-Now open the Studio at [localhost:3000/studio](http://localhost:3000/studio) and start authoring content!
+Now open the Studio at [localhost:4321/studio](http://localhost:4321/studio) and start authoring content!
 
 ### Seed the Studio with fake content
 
@@ -99,11 +99,11 @@ The `record` type generates dynamic open graph images using the `~/routes/resour
 
 ## Sanity Studio
 
-Visit `https://localhost:3000/studio` in your Remix app. You will need to:
+Visit `https://localhost:4321/studio` in your Remix app. You will need to:
 
 1. Rename `.env.template` to `.env`
 2. Set the correct Project ID, Dataset Name and preferred API Version from a project in your [Sanity Manage](https://sanity.io/manage)
-3. Add `http://localhost:3000` to the CORS settings on that project, with Allow Credentials privileges
+3. Add `http://localhost:4321` to the CORS settings on that project, with Allow Credentials privileges
 
 ## Deployment
 
