@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "string",
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
