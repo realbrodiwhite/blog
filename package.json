@@ -15,6 +15,7 @@
     "@remix-run/node": "^2.5.0",
     "@remix-run/react": "^2.5.0",
     "@remix-run/serve": "^2.5.0",
+    "@resvg/resvg-js": "^2.6.0",
     "@sanity/assist": "^1.2.16",
     "@sanity/react-loader": "^1.7.4",
     "@sanity/vision": "^3.24.1",
