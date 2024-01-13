@@ -1,13 +1,8 @@
 {
     "name": "My Dev Container",
-    "appPort": 4321,
-    "appPortAutoForward": true,
+    "forwardPorts": [3333],
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {},
-    "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-    ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
     },
