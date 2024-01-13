@@ -1,6 +1,6 @@
 {
     "name": "My Dev Container",
-    "forwardPorts": [3333],
+    "forwardPorts": [4321],
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {},
     "settings": {
