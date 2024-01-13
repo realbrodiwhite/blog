@@ -1,5 +1,6 @@
 import {presentationTool} from '@sanity/presentation'
 import {visionTool} from '@sanity/vision'
+import {assist} from '@sanity/assist'
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 
@@ -18,6 +19,7 @@ export const config = defineConfig({
       previewUrl: frontendUrl,
       locate,
     }),
+    assist(),
     visionTool(),
   ],
   basePath: `/studio`,
